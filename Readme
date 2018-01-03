@@ -1,2 +1,17 @@
-hello this is git tutorial
-for you
+step 1: open github and create new repo "gittest"
+
+step 2:
+        mkdir gittest
+        cd gittest
+        git init
+        touch Readme  # write some data in readme
+        git add .
+        git commit -m "first commit added readme" -s
+        git remote add origin https://github.com/vsivanagulu/gittest.git
+        git push origin master
+        touch helloworld.c
+        git add .
+        git commit -m "second commit added helloworld programm" -s
+        git remote add origin https://github.com/vsivanagulu/gittest.git
+        git push origin master
+
