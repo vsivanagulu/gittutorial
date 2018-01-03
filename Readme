@@ -15,3 +15,21 @@ step 2:
         git remote add origin https://github.com/vsivanagulu/gittest.git
         git push origin master
 
+3. creating branches in git
+
+	git branch		# shows available branches
+	branch siva		# creating new branch
+	git branch 		# shows available branches		
+	git checkout siva	# shifing master branch to siva branch
+	vi hello.c		# create c file and wirte some data
+	git status		# to check your modifications (shows RED color)
+	git add .		# adding your modifications
+	git status		# to check your modifications(shos green color)
+	git log			# to show your commits
+
+	git commit -m "added new branch-siva and hello.c" -s
+
+	git log				# to show your commits
+	git push -u origin siva 	# to push data to github
+
+
